@@ -1,8 +1,9 @@
-# Jekyll::Twitter::Plugin::2
+# Jekyll Twitter Plugin 2
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jekyll/twitter/plugin/2`. To experiment with that code, run `bin/console` for an interactive prompt.
+A Liquid tag plugin for the Jekyll blogging engine that embeds Tweets, Timelines and more from Twitter API.
 
-TODO: Delete this and the text above, and describe your gem
+and, this repo derived from https://github.com/rob-murray/jekyll-twitter-plugin.  
+The License here : [FORKED_FORMER_LICENCE](/FORKED_FORMER_LICENCE)
 
 ## Installation
 
@@ -22,7 +23,32 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Here are a few examples
+
+#### Tweet
+
+An example of a Tweet - `{% twitter https://twitter.com/rubygems/status/518821243320287232 %}`
+
+![Embedded tweet](https://raw.githubusercontent.com/rob-murray/jekyll-twitter-plugin/master/media/embedded-tweet.png "Screenshot of embedded tweet")
+
+#### Timeline
+
+An example of a Timeline - `{% twitter https://twitter.com/jekyllrb maxwidth=500 limit=5 %}`
+
+![Embedded timeline](https://raw.githubusercontent.com/rob-murray/jekyll-twitter-plugin/master/media/embedded-timeline.png "Screenshot of embedded timeline")
+
+#### Grid Timeline
+
+An example of a Grid Timeline - `{% twitter https://twitter.com/TwitterDev/timelines/539487832448843776 limit=5 widget_type=grid maxwidth=500 %}`
+
+![Embedded Grid Timeline](https://raw.githubusercontent.com/rob-murray/jekyll-twitter-plugin/master/media/embedded-grid.png "Screenshot of embedded Grid Timeline")
+
+#### Moment
+
+An example of a Moment - `{% twitter https://twitter.com/i/moments/650667182356082688 maxwidth=500 %}`
+
+![Embedded moment](https://raw.githubusercontent.com/rob-murray/jekyll-twitter-plugin/master/media/embedded-moment.png "Screenshot of embedded moment")
+
 
 ## Development
 

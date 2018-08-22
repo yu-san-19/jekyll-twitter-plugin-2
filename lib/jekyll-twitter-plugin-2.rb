@@ -12,8 +12,8 @@ require "digest"
 #
 module TwitterJekyll
   VERSION = "2.0.0".freeze
-  REFER_TO_README   = "Please see 'https://github.com/rob-murray/jekyll-twitter-plugin' for usage.".freeze
-  LIBRARY_VERSION   = "jekyll-twitter-plugin-v#{VERSION}".freeze
+  REFER_TO_README   = "Please see 'https://github.com/yu-san-19/jekyll-twitter-plugin-2' for usage.".freeze
+  LIBRARY_VERSION   = "jekyll-twitter-plugin-2-v#{VERSION}".freeze
   REQUEST_HEADERS   = { "User-Agent" => LIBRARY_VERSION }.freeze
 
   # TODO: remove after deprecation cycle

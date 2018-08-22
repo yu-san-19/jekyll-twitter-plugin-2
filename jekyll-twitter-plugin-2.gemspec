@@ -1,27 +1,19 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "jekyll/twitter/plugin/2/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-twitter-plugin-2"
-  spec.version       = Jekyll::Twitter::Plugin::2::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["YuSan"]
   spec.email         = ["ysoga19@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "A Liquid tag plugin for Jekyll to embed Twitter, Timelines and more from Twitter API."
+  spec.homepage      = "https://github.com/yu-san-19/jekyll-twitter-plugin-2"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

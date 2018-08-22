@@ -1,16 +1,14 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "jekyll/twitter/plugin/2/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-twitter-plugin-2"
-  spec.version       = Jekyll::Twitter::Plugin::2::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["YuSan"]
   spec.email         = ["ysoga19@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = "A Liquid tag plugin for Jekyll to embed Twitter, Timelines and more from Twitter API."
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 

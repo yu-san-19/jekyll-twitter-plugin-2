@@ -6,7 +6,7 @@ require "jekyll/twitter/plugin/2/version"
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-twitter-plugin-2"
   spec.version       = Jekyll::Twitter::Plugin::2::VERSION
-  spec.authors       = ["Yuma Soga"]
+  spec.authors       = ["YuSan"]
   spec.email         = ["ysoga19@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}

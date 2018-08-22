@@ -179,8 +179,7 @@ module TwitterJekyll
     # @api private
     def html_output_for(response)
       body = (response.html if response) || ERROR_BODY_TEXT
-
-      "#{body}"
+      body
     end
 
     # Return response from API and write to cache
